@@ -1,7 +1,11 @@
-import requests
+name =  'amey'
 
+greeting = 'hello'
 
+message =f'{greeting}, {name}.'
+ 
+print(message) 
 
-r = requests.get("https://coreyms.com", timeout=10)
-print(r.status_code)
-print(r.ok)
+print(dir(name))
+
+print(help(str))
